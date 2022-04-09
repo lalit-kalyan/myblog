@@ -76,7 +76,7 @@ const Portfolio = () => {
         {data.map((d) => (
           <div className="portContainerItem" key={d.id} >
             <img src={d.img} alt="" className="itemImg" />
-            <h3 className="itemTitile">{d.title}</h3>
+            <a className="itemTitile" href={d.url} >{d.title}</a>
           </div>
         ))}
       </div>

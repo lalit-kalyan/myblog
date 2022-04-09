@@ -49,12 +49,13 @@
       .btnCv {
         border: 1px solid #44eaea;
         margin: 20px;
-
+        padding: 3px;
         width: 120px;
-        height: 35px;
+        height: 37px;
         background: none;
         color: $high_color;
         border-radius: 3px;
+        text-decoration: none;
         cursor: pointer;
         box-sizing: border-box;
       }
@@ -83,7 +84,7 @@
       .upperRightPatch {
         width: 100%;
         height: 60%;
-       
+
         display: flex;
         align-items: center;
         justify-content: center;
@@ -91,10 +92,8 @@
         overflow: hidden;
         .patchImg {
           height: 100%;
-          
         }
         .profileImg {
-         
           height: 100%;
           position: absolute;
           z-index: 10;

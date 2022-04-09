@@ -100,7 +100,7 @@ const Contact = () => {
           <div className="green"></div>
 
           <div className="contectRightText">
-            <h3>Contect</h3>
+            <h3>Contact</h3>
             <p>Send me a Message</p>
           </div>
         </div>

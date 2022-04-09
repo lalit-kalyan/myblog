@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import { GoHome, GoStar, GoInfo, GoGlobe, GoMail , GoMortarBoard } from "react-icons/go";
 import { init } from "ityped";
+import myCV from "../../assets/myCV.pdf"
 
 const Home = () => {
   const textRef = useRef()
@@ -29,8 +30,8 @@ const Home = () => {
           
           
           <div className="upperLeftButton">
-            <button className="btnCv">Download CV</button>
-            <button className="btnTalk">Let's Talk</button>
+            <a className="btnCv" href={myCV} download >Download CV</a>
+            <button className="btnTalk" href="#contect" >Let's Talk</button>
           </div>
         </div>
         <div className="upperRight">
